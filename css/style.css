@@ -1,0 +1,45 @@
+body { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+      font-size: 22px; 
+      margin-right: 4%; margin-left: 4%; margin-top: 4.5%; margin-bottom: 0%;}
+
+header { background-color:rgb(219, 213, 198);
+          display: flex;
+          margin-top: 0%; margin-top: 0%; 
+          align-items: stretch;}
+
+section { display: flex; 
+          flex-direction: column;
+          width: 85%;
+          /* align-items: center; */
+        } /*phần tử bên trong tự giãn theo chiều cao của phần tử cao nhất */
+
+
+aside { width: 15%;}
+
+h1 { font-size: 65px;
+    color: rgb(163, 49, 81);
+    text-align: center;}
+
+
+li {  text-align: justify ; color: rgb(163, 49, 81);}
+
+p{line-height: 21.5px;}
+
+footer{margin-left: 0%; margin-right: 0%; padding-bottom: 0%;
+      background-color: antiquewhite;
+      font-size: 18px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(105, 88, 88);
+    text-align: center;}
+
+main{ margin-top: 5%; }
+
+div{ display:flex; 
+    flex-wrap:wrap;
+    gap: 10px; 
+    justify-content: center;}
+
+
+
+
+
